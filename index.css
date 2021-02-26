@@ -19,3 +19,7 @@ li{
 #kool{
     background-color: lightseagreen;
 }
+img{
+    width: 300px;
+    height: auto;
+}
