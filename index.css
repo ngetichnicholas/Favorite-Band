@@ -1,3 +1,9 @@
+body{
+    background-color: slategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 h1{
     color: blue;
 }
@@ -11,7 +17,7 @@ li{
     background-color: khaki;
 }
 #london{
-    background-color: lawngreen;
+    background-color: teal;
 }
 #rock{
     background-color: lightsalmon;
