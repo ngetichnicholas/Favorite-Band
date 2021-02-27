@@ -1,5 +1,5 @@
 body{
-    background-color: slategray;
+    background-color: lightseagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -13,19 +13,8 @@ h2{
 li{
     color: indigo;
 }
-#zapp{
-    background-color: khaki;
-}
-#london{
-    background-color: teal;
-}
-#rock{
-    background-color: lightsalmon;
-}
-#kool{
-    background-color: lightseagreen;
-}
+
 img{
-    width: 300px;
+    width: 460px;
     height: auto;
 }
