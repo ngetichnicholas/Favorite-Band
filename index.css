@@ -10,15 +10,19 @@ p{
 h1{
     color: blue;
     text-align: center;
+    font-weight: 900;
 }
 h2{
     color: chocolate;
+    font-weight: 800;
 }
 h3{
     color: brown;
+    font-weight: 600;
 }
 h4{
     color: darkgreen;
+    font-weight: 500;
 }
 ol.music{
     height: 200px;
