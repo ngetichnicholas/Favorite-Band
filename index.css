@@ -1,5 +1,6 @@
 body{
     background-color: lightseagreen;
+    font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -29,6 +30,7 @@ ol.music{
     overflow: auto;
     background-color: rgb(97, 221, 230);
     width: 50%;
+    font-style: oblique;
 }
 ol.favorite{
     list-style-type: lower-roman;
