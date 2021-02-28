@@ -21,14 +21,37 @@ h4{
     color: darkgreen;
 }
 ol.music{
-    height: 600px;
-    float: left;
+    height: 200px;
     overflow: auto;
+    background-color: rgb(97, 221, 230);
+    width: 40%;
+}
+ol.favorite{
+    list-style-type: lower-roman;
+}
+ul.header{
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(97, 221, 230);
-    width: 30%;
+    overflow: hidden;
+    background-color: #333333;
 }
+  
+ul.header li {
+    float: left;
+  }
+  
+  ul.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  ul.header li a:hover {
+    background-color: #111111;
+  }
 
   li {
     
@@ -40,7 +63,4 @@ ol.music{
 img{
     width: 400px;
     height: auto;
-}
-#kool{
-   
 }
