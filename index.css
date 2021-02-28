@@ -21,13 +21,13 @@ h4{
     color: darkgreen;
 }
 ol.music{
-    height: 800px;
+    height: 600px;
     float: left;
     overflow: auto;
     margin: 0;
     padding: 0;
     background-color: rgb(97, 221, 230);
-    width: 50%;
+    width: 30%;
 }
 
   li {
