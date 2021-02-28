@@ -3,6 +3,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+p{
+    font-family: fantasy;
+}
 
 h1{
     color: blue;
@@ -18,18 +21,15 @@ h4{
     color: darkgreen;
 }
 li{
-    color: indigo;
+    color: rgb(34, 17, 114);
 }
 
 img{
     width: 460px;
     height: auto;
 }
-.left{
-    float: left;
-    width: 50%;
-}
-.right{
-    float: right;
-    width: 50%;
+#kool{
+    width: 70%;
+    height: 600px;
+    overflow: auto;
 }
