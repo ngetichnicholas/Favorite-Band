@@ -20,16 +20,27 @@ h3{
 h4{
     color: darkgreen;
 }
-li{
-    color: rgb(34, 17, 114);
+ol.music{
+    height: 800px;
+    float: left;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(97, 221, 230);
+    width: 50%;
 }
 
+  li {
+    
+    color: rgb(34, 17, 114);
+
+  }
+  
+
 img{
-    width: 460px;
+    width: 400px;
     height: auto;
 }
 #kool{
-    width: 70%;
-    height: 600px;
-    overflow: auto;
+   
 }
