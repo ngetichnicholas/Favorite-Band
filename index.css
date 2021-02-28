@@ -2,10 +2,18 @@ body{
     background-color: lightseagreen;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
 
 }
 p{
     font-family: fantasy;
+}
+section{
+    border-radius: 2px;
+    border-style: dashed;
+    border-color: tomato;
+    border-width: 10px;
+    font-style: oblique;
 }
 
 h1{
