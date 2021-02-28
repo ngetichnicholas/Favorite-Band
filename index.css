@@ -24,12 +24,13 @@ ol.music{
     height: 200px;
     overflow: auto;
     background-color: rgb(97, 221, 230);
-    width: 40%;
+    width: 50%;
 }
 ol.favorite{
     list-style-type: lower-roman;
 }
 ul.header{
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
