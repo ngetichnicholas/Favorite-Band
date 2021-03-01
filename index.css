@@ -3,6 +3,9 @@ body{
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
 
 }
 p{
@@ -42,6 +45,9 @@ ol.music{
 }
 ol.favorite{
     list-style-type: lower-roman;
+    display: flex;
+    overflow: auto;
+    list-style: none;
 }
 ul.header{
     width: 100%;
@@ -77,5 +83,5 @@ ul.header li {
 
 img{
     width: 400px;
-    height: auto;
+    height: 300px;
 }
