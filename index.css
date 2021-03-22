@@ -48,17 +48,17 @@ h2{
     font-weight: 800;
 }
 h3{
-    color: brown;
+    color: #d62828;
     font-weight: 600;
 }
 h4{
-    color: darkgreen;
+    color: #f77f00;
     font-weight: 500;
 }
 ol.music{
     height: 300px;
     overflow: auto;
-    background-color: rgb(97, 221, 230);
+    background-color:#003049;
     width: 90%;
     font-style: oblique;
 }
@@ -76,7 +76,7 @@ ul.header{
     overflow: hidden;
     border-radius: 8px;
     padding-top: 20px;
-    background-color: #6ddccf;
+    background-color: #003049;
 }
   
 ul.header li {
@@ -85,18 +85,19 @@ ul.header li {
   
   ul.header li a {
     display: block;
-    color: white;
+    color: #eae2b7;
     padding: 16px;
     text-decoration: none;
   }
   
   ul.header li a:hover {
     background-color: #ffcb91;
+    color: #d62828;
   }
 
   li {
     
-    color: rgb(34, 17, 114);
+    color: #f77f00;
 
   }
   
@@ -117,7 +118,7 @@ img{
     left: 0;
     bottom: 0;
     height: 40px;
-    background-color: #6ddccf;
+    background-color: #003049;
     color: white;
     display: flex;
     flex-direction: column;
