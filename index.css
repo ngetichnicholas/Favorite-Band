@@ -105,10 +105,12 @@ img{
     width: 450px;
     height: 300px;
     margin-right: 40px;
+    border-radius: 4px;
 }
 #list img{
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 #footer{
     right: 0;
@@ -148,5 +150,9 @@ img{
       ul.header li a {
         width: 100%;
         display: block;
+      }
+      body{
+          margin-left: 5px;
+          margin-right: 5px;
       }
 }
