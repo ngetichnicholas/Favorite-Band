@@ -1,25 +1,45 @@
 body{
-    background-color: lightseagreen;
+    background-color: #ffefa1;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
-    margin: 10px;
+    margin-left: 40px;
+    margin-right:  40px;
     text-align: justify;
-
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#intro{
+    width: 45%;
+}
+#list{
+    width: 45%;
 }
 p{
     font-family: fantasy;
 }
-section{
-    border-radius: 2px;
-    border-style: dashed;
-    border-color: tomato;
-    border-width: 10px;
+#banner{
+    height: 700px;
+    background-image: url('images/classical-banner.jpg');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    border: 4px solid #6ddccf;
     font-style: oblique;
-}
+    margin-bottom: 15px;
 
+}
+#banner p{
+    color: white;
+}
 h1{
-    color: blue;
+    color: white;
     text-align: center;
     font-weight: 900;
 }
@@ -36,25 +56,27 @@ h4{
     font-weight: 500;
 }
 ol.music{
-    height: 200px;
+    height: 300px;
     overflow: auto;
     background-color: rgb(97, 221, 230);
-    width: 50%;
+    width: 90%;
     font-style: oblique;
 }
 ol.favorite{
     list-style-type: lower-roman;
     display: flex;
+    justify-content: space-between;
     overflow: auto;
     list-style: none;
 }
 ul.header{
-    width: 100%;
+    height: 60px;
+    padding-bottom: 10px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    border-radius: 8px;
+    padding-top: 20px;
+    background-color: #6ddccf;
 }
   
 ul.header li {
@@ -64,13 +86,12 @@ ul.header li {
   ul.header li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 16px;
     text-decoration: none;
   }
   
   ul.header li a:hover {
-    background-color: #111111;
+    background-color: #ffcb91;
   }
 
   li {
@@ -81,6 +102,51 @@ ul.header li {
   
 
 img{
-    width: 400px;
+    width: 450px;
     height: 300px;
+    margin-right: 40px;
+}
+#list img{
+    width: 100%;
+    height: auto;
+}
+#footer{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    background-color: #6ddccf;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+}
+@media only screen and (max-width: 1277px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #intro{
+        width: 100%;
+    }
+    #list{
+        width: 100%;
+    }
+    ul.header{
+        height: 300px;
+    }
+      
+    ul.header li {
+        width: 100%;
+        
+      }
+      
+      ul.header li a {
+        width: 100%;
+        display: block;
+      }
 }
