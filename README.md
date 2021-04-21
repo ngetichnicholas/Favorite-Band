@@ -3,7 +3,7 @@
 Nicholas Ngetich
 ## Description
 This is website about my most interesting and favorite music bands. My favorite band website contains a list of bands I like, list of band members and a list of some of their respective songs which are my favorite.
-![alt text](https://ngetichnicholas.github.io/My_Favorite_Band/images/favorite-band.png)
+![alt text](https://github.com/ngetichnick/Favorite-Band/blob/master/Favorite-Band%20.png?raw=true)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
