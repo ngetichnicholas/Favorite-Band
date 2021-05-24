@@ -21,5 +21,9 @@ To access this project on your local files, you can clone it using these steps
 1. Git
 ### Live Site
 View [live](https://ngetichnicholas.github.io/My_Favorite_Band/)
-### Licence
-This project is under the  [MIT](LICENSE) licence
+This project is under:  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)  
+Copyright &copy; 2021 **[Nicholas Ngetich](https://github.com/ngetichnick)**
+### Questions?
+Twitter: **[@ngetichnichoh](https://twitter.com/ngetichnichoh)**  
+Email: **[nicholas.ngetich@student.moringaschool.com](mailto:nicholas.ngetich@student.moringaschool.com)**
